@@ -40,7 +40,7 @@ export default function Redeem() {
   };
 
   return (
-    <div className="relative top-20 min-h-screen bg-gradient-to-br from-green-50 to-white p-6">
+    <div className="vh-1 mb-20 relative top-20 bg-gradient-to-br from-green-50 to-white p-20">
       <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-2xl p-8">
         <div className="flex items-center justify-between mb-6">
           <a

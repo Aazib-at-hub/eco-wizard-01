@@ -29,7 +29,9 @@ import LoginPage from './components/Login/Login';
 import Mission from "./components/Missions/Missions.jsx"
 import Points from "./components/Points/Points.jsx"
 import Redeem from "./components/Redeem/Redeem.jsx"
-
+import Learn from "./components/Learn/Learn.jsx"
+import Profile from './components/Profile/Profile.jsx';
+import Footer from "./components/Footer/Footer.jsx"
 function App() {
   return (
     <Router>
@@ -43,8 +45,11 @@ function App() {
         <Route path="/mission" element={<Mission />} />
         <Route path="/points" element={<Points />} />
         <Route path="/redeem" element={<Redeem />} />
-
+        <Route path="/learn" element={<Learn />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
+
+      <Footer/>
     </Router>
   );
 }

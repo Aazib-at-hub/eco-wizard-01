@@ -4,7 +4,8 @@ import { Sparkles, Gift, Leaf } from 'lucide-react';
 
 const Points = ({ totalPoints = 1200, level = 'Green Guardian', progress = 75 }) => {
   return (
-    <div className="relative top-20 left-50  mt-20 max-w-md mx-auto p-6 rounded-2xl shadow-lg bg-white dark:bg-gray-900">
+    <div className="mb-20 h-full">
+    <div className="relative top-20 left-50  mt-20 mb-20 max-w-md mx-auto p-20 rounded-2xl shadow-lg bg-white dark:bg-gray-900">
       <div className=" flex items-center gap-4">
         <Leaf className="text-green-500 w-10 h-10" />
         <div>
@@ -40,6 +41,7 @@ const Points = ({ totalPoints = 1200, level = 'Green Guardian', progress = 75 })
           <li>+800: Recycled waste drop-off</li>
         </ul>
       </div>
+    </div>
     </div>
   );
 };

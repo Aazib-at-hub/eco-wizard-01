@@ -40,15 +40,13 @@ export default function HeroSection() {
       </div>
 
       {/* Right Image */}
-      <div className="w-full md:w-1/2 h-72 md:h-full mt-10 md:mt-0">
-        <div
-          className="w-full h-full bg-cover bg-center rounded-xl md:rounded-none shadow-lg"
-          style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1600&q=80')`,
-            filter: 'brightness(0.85)',
-          }}
-        />
-      </div>
+       <div className="w-full md:w-1/2 h-72 md:h-full mt-10 md:mt-0">
+      <img
+        src="public/main.jpg"
+        alt="EcoPoints"
+        className="w-full h-full rounded-3xl object-cover rounded-none shadow-lg transition duration-300"
+      />
+    </div>
     </div>
   );
 }
