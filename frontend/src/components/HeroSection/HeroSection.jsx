@@ -10,7 +10,7 @@ export default function HeroSection() {
         {/* Logo */}
         <div className="flex items-center gap-2 mb-4">
           <Leaf className="text-green-400 w-8 h-8" />
-          <h2 className="text-2xl font-bold text-green-300 tracking-wide">EcoTrack</h2>
+          <h2 className="text-2xl font-bold text-green-300 tracking-wide">EcoPoints</h2>
         </div>
 
         {/* Heading */}

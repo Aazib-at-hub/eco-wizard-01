@@ -4,8 +4,8 @@ import { Sparkles, Gift, Leaf } from 'lucide-react';
 
 const Points = ({ totalPoints = 1200, level = 'Green Guardian', progress = 75 }) => {
   return (
-    <div className="mb-20 h-full">
-    <div className="relative top-20 left-50  mt-20 mb-20 max-w-md mx-auto p-20 rounded-2xl shadow-lg bg-white dark:bg-gray-900">
+    <div className="min-h-[85vh]">
+    <div className="relative mt-24 mb-20 top-20 max-w-md mx-auto p-20 rounded-2xl shadow-lg bg-white dark:bg-gray-900">
       <div className=" flex items-center gap-4">
         <Leaf className="text-green-500 w-10 h-10" />
         <div>
